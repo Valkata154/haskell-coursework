@@ -7,7 +7,7 @@ the functions in the associated cwk.hs file.
 
 # Questions
 
-**Question 1 - Sets**
+### **Question 1 - Sets**
 
 Write a function (complement) which, given a set A and a prospective universal set U, returns
 the complement of A with respect to U, wrapped in the Just type constructor. Note that if the
@@ -24,7 +24,7 @@ Write a function (mIntersect) that returns the multiset intersection of two mult
 previous function. Note that you do not need to worry about the order of the elements in your
 return value. (1 mark)
 
-**Question 2 - Functions and Relations**
+### **Question 2 - Functions and Relations**
 
 The transitive closure of a relation R is the smallest relation bigger than R which is transitive.
 In other words, it is R with whatever pairs added to make R transitive. Write a function
@@ -32,14 +32,14 @@ In other words, it is R with whatever pairs added to make R transitive. Write a 
 the transitive closure of R. You do not need to worry about the order in which pairs appear in
 your return value. (3 marks)
 
-**Question 3 - Combinatorics**
+### **Question 3 - Combinatorics**
 
 Write a function (missing2) which takes a list of n distinct integers, xs, and returns a list of
 lists of (n − 2) integers which encode all possible ways of choosing subsets of size (n − 2) from
 xs. Order each list so that the smallest integer appears first in that list; i.e. [1, 3, 4] not [1, 4, 3].
 (3 marks)
 
-**Question 4 - Primes**
+### **Question 4 - Primes**
 
 Special instructions. For this question, the test cases are ranked in terms of size:
 
@@ -61,7 +61,7 @@ the prime factorisation of n. In other words, it is possible that elements in yo
 more than once. It should be the case that if you multiply all of the numbers in your list
 together, you get n.
 
-**Question 5 - RSA**
+### **Question 5 - RSA**
 
 Write a function (eTotient) which takes an integer n, and returns the number of integers less
 than n which are coprime with n. (2 marks)
